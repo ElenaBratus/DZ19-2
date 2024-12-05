@@ -1,0 +1,25 @@
+/*# sourceMappingURL=style.css.map */
+* {
+  box-sizing: border-box;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  justify-content: flex-end;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0c4b35;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.slider-block > div {
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+  font-size: 10px;
+}
